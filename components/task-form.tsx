@@ -129,6 +129,7 @@ export function TaskForm({ users, task }: TaskFormProps) {
                 <PopoverTrigger asChild>
                   <Button
                     variant="outline"
+                    size={"lg"}
                     className={cn("w-full justify-start text-left font-normal", !dueDate && "text-muted-foreground")}
                   >
                     <CalendarIcon className="mr-2 h-4 w-4" />

@@ -175,7 +175,7 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 px-4">
       <div>
         <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
         <p className="text-muted-foreground">Welcome back, {profile?.name || user.email?.split("@")[0] || "User"}</p>
@@ -253,7 +253,7 @@ export default function DashboardPage() {
       </Card>
 
       {/* Debug Information */}
-      <Card className="border-dashed">
+      {/* <Card className="border-dashed">
         <CardHeader>
           <CardTitle className="text-sm">Debug Information</CardTitle>
         </CardHeader>
@@ -274,7 +274,7 @@ export default function DashboardPage() {
             <strong>Tasks Loaded:</strong> {recentTasks.length} tasks
           </div>
         </CardContent>
-      </Card>
+      </Card> */}
     </div>
   )
 }

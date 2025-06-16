@@ -101,10 +101,10 @@ export default function TasksPage() {
       <TaskTable tasks={tasks} />
 
       {/* Debug Information */}
-      <div className="text-xs text-muted-foreground border-t pt-4">
+      {/* <div className="text-xs text-muted-foreground border-t pt-4">
         <p>Debug: {tasks.length} tasks loaded</p>
         <p>Current user: {currentUser?.email}</p>
-      </div>
+      </div> */}
     </div>
   )
 }

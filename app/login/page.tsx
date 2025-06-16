@@ -12,9 +12,9 @@ export default function LoginPage() {
         </div>
 
         <Tabs defaultValue="login" className="w-full">
-          <TabsList className="grid w-full grid-cols-2">
-            <TabsTrigger value="login">Login</TabsTrigger>
-            <TabsTrigger value="register">Register</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-2 rounded-[0.5rem]">
+            <TabsTrigger value="login" className="rounded-[0.5rem]">Login</TabsTrigger>
+            <TabsTrigger value="register" className="rounded-[0.5rem]">Register</TabsTrigger>
           </TabsList>
           <TabsContent value="login">
             <LoginForm />
